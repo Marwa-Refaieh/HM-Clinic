@@ -1,0 +1,97 @@
+@media  (max-width: 520px){
+    .appointment .container{
+        padding: 0 22px;
+    }
+    .appointment .container h1{
+        font-size: 21px !important;
+        margin: 14px 0;
+    }
+    .appointment .container .select-tab1 select{
+        width: 320px !important;
+    }
+    .appointment .container .select-tab3{
+        width: 316px !important;
+    }
+    .appointment .container .label-tab1{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .appointment .container #prevBtn{
+        font-size: 17px !important;
+    }
+    .appointment .container #nextBtn{
+        font-size: 17px !important;
+    }
+}
+@media (max-width: 360px){
+    .appointment .container h1{
+        font-size: 19px !important;
+        margin: 14px 0;
+    }
+    .appointment .container #prevBtn{
+        font-size: 17px !important;
+    }
+    .appointment .container #nextBtn{
+        font-size: 17px !important;
+    }
+    .appointment .container .label-tab1{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+}
+@media (min-width: 820px) {
+    .appointment .container{
+        padding: 0 108px !important;
+    }
+    .appointment .container .label-tab1{
+        font-size: 18px !important;
+        font-weight: light !important;
+    }
+}
+@media (min-width: 750px) and (max-width: 1020px){
+    .appointment .container{
+        padding: 0 22px !important;
+    }
+    .appointment .container .select-tab1 select{
+        width: 670px !important;
+    }
+    .appointment .container h1{
+        font-size: 30px !important;
+        margin: 14px 0;
+    }
+    .appointment .container .select-tab3{
+        width: 660px !important;
+        padding-right: 340px !important;
+    }
+    .appointment .container .label-tab1{
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+}
+@media (min-width:1024px){
+    .appointment .container{
+        padding: 0 60px !important;
+    }
+    .appointment .container .select-tab1 select{
+        width: 290px !important;
+    }
+    .appointment .container .select-tab3{
+        width: 500px !important;
+    }
+    .appointment .container h1{
+    }
+}
+@media (min-width:540px) and (max-width:720px){
+    .appointment .container {
+        padding: 0 20px !important;
+    }
+    .appointment .container .select-tab1 select{
+        width: 450px !important;
+    }
+    .appointment .container .select-tab3{
+        width: 450px !important;
+    }
+    .appointment .container h1{
+        font-size: 25px !important;
+    }
+}

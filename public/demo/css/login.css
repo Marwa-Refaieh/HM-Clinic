@@ -1,0 +1,49 @@
+.hero{
+    /* background-image: url('{{ asset(demo/img/login/hero1.jpg) }}') !important; */
+    /* background-image: url('/img/login/hero1.jpg') !important; */
+  background: radial-gradient(circle, rgba(19, 71, 129, 1) 0%, rgba(3, 10, 18, 1) 100%) !important;
+
+    background-repeat: no-repeat;
+    background-position: right right;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+/* .hero::after{
+    content: " ";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+} */
+label{
+    color: white !important;
+}
+.input{
+    border: none !important;
+    outline: none !important;
+    background-color: transparent;
+    border-bottom: 1px solid white !important;
+}
+.box{
+    background-color: transparent !important;
+    backdrop-filter: blur(10px);
+    border:  2px solid rgba(255, 255, 255, 0.2);
+}
+figure{
+    margin: 0 auto !important;
+    /* border:  2px solid blue;
+    border-radius: 50px;
+    padding: 5px; */
+}
+::placeholder{
+    color: white !important;
+}
+
+.columns:last-child
+{
+    margin-bottom: 0 !important;
+}

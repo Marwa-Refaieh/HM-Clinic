@@ -1,0 +1,109 @@
+ /* start doctor */
+ .doctors .column{
+    display: flex !important;
+    justify-content: center;
+ }
+.doctors .card{
+    height: 360px;
+    width:264px !important;
+    border-radius: 7%;
+    background-color: #0000001c;
+}
+.doctors .card .doctor-picture{
+   width: 100%;
+   height: 270px;
+   border-radius: 5%;
+   transition:.4s linear;
+   border: 2px solid var(--primary);
+}
+.doctors .card .doctor-picture img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s linear;
+}
+.doctors .card .doctor-picture img:hover{
+    transform: scale(1.1);
+}
+.doctors .card .doctor-picture:hover{
+    border: 3px solid var(--primary);
+}
+/* start model */
+.doctors .model-button{
+    padding: 0;
+    outline: none;
+    border: none !important;
+    border-radius: 5% !important;
+}
+.model .modal-content{
+    border-radius: 10px;
+}
+.model .doctor-image{
+    width: 40%;
+    height: 10%;
+    border-radius: 5%;
+}
+.model .doctor-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.model .line-doctor::after{
+    content: " ";
+    width: 100px;
+    height: 3px;
+    background-color: var(--primary);
+    position: absolute;
+    left:0;
+    bottom: -8px;
+}
+.model .modal-content .body-model .work-time{
+    color: black !important;
+}
+.model .modal-content .body-model .fa-clock-o{
+    font-size: 20px;
+}
+.model .modal-content .body-model .tt{
+    letter-spacing: 1px;
+}
+.model .modal-content .modal-card-foot{
+    background-color: white !important;
+}
+.model .modal-content .modal-card-foot button{
+    color:white;
+    border-radius: 7px;
+    background-color: var(--secondary);
+    transition: .8s linear;
+}
+.model .modal-content .modal-card-foot .social-media span{
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.model .modal-content .modal-card-foot .social-media span .fa-facebook:hover{
+    background-color: var(--secondary);
+    color: white;
+    padding:4px 2px 4px 6px;
+    border-radius: 17%;
+    transition: .3s linear;
+}
+.model .modal-content .modal-card-foot .social-media span .fa-twitter:hover{
+    background-color:#62c3e6;
+    color: white;
+    padding:3px 0 3px 4px;
+    border-radius: 17%;
+    transition: .3s linear;
+}
+.model .modal-content .modal-card-foot .social-media span .fa-instagram:hover{
+    background: linear-gradient(45deg,#405de6,#5851db,#833ab4,#c1356c,#fd1d1d);
+    color: white;
+    padding: 3px 0 3px 4px;
+    border-radius: 17%;
+    transition: .3s linear;
+}
+.model .modal-content .modal-card-foot .button:hover{
+    background-color: var(--fifth);
+    transition: .8s linear;
+    border: none !important;
+    outline: none !important;
+}

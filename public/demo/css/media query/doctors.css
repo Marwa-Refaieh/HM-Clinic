@@ -1,0 +1,45 @@
+@media (max-width: 768px){
+
+   .model .modal-content .box .header-model{
+    display: flex !important;
+    flex-direction: column !important;
+   }
+   .model .media-doctors{
+    margin-left: 8px !important;
+   }
+   .model .doctor-image{
+    width: 100% !important;
+  }
+  .model .modal-content .modal-card-foot{
+    flex-direction: column;
+  }
+  }
+  
+
+ @media (min-width: 768px) and (max-width: 1023px) {
+  .model .modal-content .box .header-model{
+    display: flex !important;
+    flex-direction: column !important;
+   }
+   .model .media-doctors{
+    margin-left: 8px !important;
+   }
+   .model .doctor-image{
+    width: 100% !important;
+  }
+  }
+  @media (max-width: 768px){
+    .model .modal-content .modal-card-foot{
+      flex-direction: row;
+    }
+    .model .body-modal{
+      font-size: 22px;
+    }
+  }
+  @media (min-width: 716px) and (max-width: 917px){
+    .model .modal-content .body-model{
+      font-size: 22px;
+    }
+  }
+
+ 

@@ -1,0 +1,74 @@
+.hero .columns {
+  background-color: rgba(255, 255, 255, .1);
+  box-shadow: 0px 0px 20px 3px #b5b5b54a;
+  border-radius: 20px;
+  width: 80%;
+  margin: 0 auto !important;
+
+}
+
+input,
+textarea {
+  background: rgba(255, 255, 255, .0) !important;
+  border: none !important;
+  border-bottom: 1px solid white !important;
+  outline: none;
+  color: white !important;
+  border-bottom: 1px solid white !important;
+  transition: 1s !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.hero-body i,
+.social i,
+.column h3 {
+  color: #48c78e;
+}
+
+.social i:hover {
+  color: white;
+  transition: 1s;
+}
+
+button {
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  transition: 1s;
+  outline: none;
+}
+
+.map i{
+  font-size: 30px;
+  padding-right: 15px;
+}
+
+iframe {
+  box-shadow: 0px 0px 20px 3px #b5b5b57c;
+  border-radius: 10px !important;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+@media only screen and (max-width: 830px) {
+
+  .hero-body .text-column {
+    padding-left: 5% !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .hero-body .text-column {
+    padding-left: 5% !important;
+  }
+}
